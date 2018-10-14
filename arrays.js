@@ -2,5 +2,6 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"]
 
 var myArray = ["cat", "dog", "rabbit"]
 function addElementToBeginningOfArray(myArray,chicken) {
-  return myArray.push("chicken");
+  return function () {myArray.push("chicken")
 }
+   return myArray
